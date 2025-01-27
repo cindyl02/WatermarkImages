@@ -126,7 +126,7 @@ def upload_logo_and_add_watermark(original_image):
     logo = Image.open(file_path)
 
     # Resize the logo image
-    logo = resize_image_with_aspect_ratio(logo, 25)
+    logo = resize_image_with_aspect_ratio(logo, 50)
 
     # Calculate the position for the logo
     x = original_image.width - logo.width - 10
